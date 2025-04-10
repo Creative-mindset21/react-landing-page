@@ -4,7 +4,7 @@ import { HiMenu, HiX } from "react-icons/hi";
 
 const NavBar = () => {
   const [activeLink, setActiveLink] = useState("#home");
-  const [isMenuOpen, setIsMenuOpen] = useState(true);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <header className="header">
       <div className="flex items-center w-full h-16 lg:h-20 justify-between container mx-auto px-4 sm:px-6 lg:px-8">
