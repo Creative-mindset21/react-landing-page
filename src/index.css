@@ -12,6 +12,10 @@
   .getInTouchBtn {
     @apply hidden md:block bg-blue-600 hover:bg-blue-800 font-medium duration-400 text-white text-sm px-6 py-2.5 rounded-lg;
   }
+
+  .getInTouchBtn1 {
+    @apply block text-center bg-blue-600 hover:bg-blue-800 font-medium duration-400 text-white text-sm px-6 py-2.5 rounded-lg transition-all hover:shadow-lg hover:shadow-blue-100;
+  }
 }
 
 @utility textAnimation {
