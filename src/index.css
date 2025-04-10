@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+@layer components {
+  .header {
+    @apply fixed top-0 left-0 right-0 bg-white border-b border-gray-100 z-50 shadow-sm;
+  }
+
+  nav {
+    @apply hidden md:flex items-center space-x-10;
+  }
+
+  .getInTouchBtn {
+    @apply hidden md:block bg-blue-600 hover:bg-blue-800 font-medium duration-400 text-white text-sm px-6 py-2.5 rounded-lg;
+  }
+}
+
+@utility textAnimation {
+  @apply relative text-sm font-medium after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:bg-blue-600 after:transition-all;
+}
