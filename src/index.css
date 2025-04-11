@@ -14,6 +14,13 @@
   }
 }
 
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+  }
+}
+
 @layer components {
   .header {
     @apply fixed top-0 left-0 right-0 bg-white border-b border-gray-100 z-50 shadow-sm;

@@ -5,7 +5,10 @@ import heroImage from "../assets/hero-image.png";
 
 const Hero = () => {
   return (
-    <section className="pt-44 pb-16 mx-auto px-4 sm:px-6 lg:px-8 container flex flex-col md:flex-row items-center justify-between">
+    <section
+      className="pt-44 pb-16 mx-auto px-4 sm:px-6 lg:px-8 container flex flex-col md:flex-row items-center justify-between"
+      id="home"
+    >
       {/* LEFT SIDE */}
       <div className="w-full md:w-1/2 space-y-8">
         {/* STAR BADGE */}
