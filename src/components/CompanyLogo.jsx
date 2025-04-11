@@ -4,7 +4,7 @@ import { slack, amazon, woocommerce, meundies, sitepoint } from "../data";
 const CompanyLogo = () => {
   const logos = [slack, amazon, woocommerce, meundies, sitepoint];
   return (
-    <div className="flex container py-20 mx-auto items-start sm:items-center flex-col sm:flex-row w-full overflow-hidden">
+    <div className="flex container py-20 mx-auto items-start sm:items-center flex-col sm:flex-row w-full overflow-hidden gap-8">
       {/* WRITEUP */}
       <p className="w-[300px] shrink-0 border-l-4 px-8 text-xl border-blue-500 text-gray-600 bg-white sm:text-base z-10 py-2 font-semibold text-left">
         Proud partner at <br />
