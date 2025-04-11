@@ -1,5 +1,5 @@
 import React from "react";
-import { features } from "../data";
+import { purposes } from "../data";
 
 const PurposeSection = () => {
   return (
@@ -18,7 +18,7 @@ const PurposeSection = () => {
 
           {/* BULLET POINTS */}
           <div className="grid grid-cols-1 md:grid-cols-2 col-span-2 justify-between gap-8">
-            {features.map((feature, index) => (
+            {purposes.map((feature, index) => (
               <div className="flex items-start space-x-4" key={index}>
                 <div className="w-12 h-12 flex justify-start rounded-lg">
                   {feature.icon}
